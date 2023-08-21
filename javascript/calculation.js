@@ -55,6 +55,7 @@ function apply() {
 }
 
 function modalBtn() {
+     initialPrice = "00";
      document.getElementById("input-field").value = "";
      document.getElementById("blank-div").innerText = '';
      document.getElementById("totalPrice").innerText = '00';
@@ -63,7 +64,7 @@ function modalBtn() {
      document.getElementById('apply-btn').setAttribute("disabled",true);
      document.getElementById('Purchase-Btn').setAttribute("disabled",true);
     
-     window.location.href = "index.html";
+     // window.location.href = "index.html";
 }
 
 function inputField(id) {
