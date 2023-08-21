@@ -56,6 +56,7 @@ function apply() {
 
 function modalBtn() {
      document.getElementById("input-field").value = "";
+     document.getElementById("blank-div").innerText = '';
      document.getElementById("totalPrice").innerText = "00";
      document.getElementById("totalDiscount").innerText = "00";
      document.getElementById("totalRemainingBalance").innerText = "00";
