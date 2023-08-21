@@ -60,6 +60,8 @@ function modalBtn() {
      document.getElementById("totalPrice").innerText = "00";
      document.getElementById("totalDiscount").innerText = "00";
      document.getElementById("totalRemainingBalance").innerText = "00";
+     document.getElementById('apply-btn').setAttribute("disabled",true);
+     document.getElementById('Purchase-Btn').setAttribute("disabled",true);
     
      // window.location.href = "index.html";
 }
