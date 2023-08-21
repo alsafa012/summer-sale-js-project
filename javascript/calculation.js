@@ -68,9 +68,3 @@ function inputField(id) {
      const text = input.value;
      return text;
 }
-
-// function textField(textFld) {
-//      const input1 = document.getElementById(textFld);
-//      const text1 = input1.innerText;
-//      return text1;
-// }
